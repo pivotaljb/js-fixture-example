@@ -1,0 +1,11 @@
+src_files:
+  - /public/javascripts/jquery-1.4.2.js
+  - /public/javascripts/user-page.js
+  - /spec/javascripts/spec/spec_helpers/spec_helper.js
+  - /spec/javascripts/spec/spec_helpers/jquery_matchers.js
+  - /spec/javascripts/spec/spec_helpers/load_fixture.js
+spec_files:
+  - **/*_spec.js
+spec_dir: spec/javascripts
+stylesheets:
+  - /public/stylesheets/example.css

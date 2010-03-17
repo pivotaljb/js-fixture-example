@@ -1,0 +1,50 @@
+
+
+Processing UsersController#index (for 0.0.0.0 at 2010-03-15 23:47:19) [GET]
+  [4;36;1mUser Load (2.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 21ms (View: 2, DB: 4) | 200 OK [http://test.host/users]
+
+
+Processing UsersController#index (for 0.0.0.0 at 2010-03-16 00:13:10) [GET]
+  [4;36;1mUser Load (2.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 21ms (View: 2, DB: 4) | 200 OK [http://test.host/users]
+
+
+Processing UsersController#index (for 0.0.0.0 at 2010-03-16 00:13:36) [GET]
+  [4;36;1mUser Load (2.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 22ms (View: 2, DB: 4) | 200 OK [http://test.host/users]
+
+
+Processing UsersController#index (for 0.0.0.0 at 2010-03-16 00:35:22) [GET]
+  [4;36;1mUser Load (2.3ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 23ms (View: 2, DB: 4) | 200 OK [http://test.host/users]
+  [4;36;1mUser Load (2.8ms)[0m   [0;1mSELECT * FROM "users" [0m
+
+
+Processing UsersController#index (for 0.0.0.0 at 2010-03-16 00:36:18) [GET]
+  [4;35;1mUser Load (2.3ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 21ms (View: 2, DB: 7) | 200 OK [http://test.host/users]
+
+
+Processing UsersController#index (for 0.0.0.0 at 2010-03-16 23:32:33) [GET]
+  [4;36;1mUser Load (9.1ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 148ms (View: 67, DB: 11) | 200 OK [http://test.host/users]
+
+
+Processing UsersController#index (for 0.0.0.0 at 2010-03-16 23:39:10) [GET]
+  [4;36;1mUser Load (2.7ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 81ms (View: 41, DB: 5) | 200 OK [http://test.host/users]

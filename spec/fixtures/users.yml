@@ -1,0 +1,24 @@
+bob:
+  first_name: Bob
+  last_name: Smith
+  phone_number: 415-555-3433
+  city: San Francisco
+  state: California
+  favorite_band: Gorillaz
+jane:
+  first_name: Jane
+  last_name: Thomas
+  phone_number: 212-555-3433
+  city: New York
+  state: New York
+  favorite_band: Joanna Newsom
+terry:
+  first_name: Terry
+  last_name: Linden
+  phone_number: 310-555-3433
+  city: Los Angeles
+  state: California
+  favorite_band: Olivia Tremor Control
+
+
+

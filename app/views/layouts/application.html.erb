@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= javascript_include_tag  'jquery-1.4.2', 'user-page.js' %>
+    <%= stylesheet_link_tag 'example' %>
+  </head>
+  <body>
+    <%= yield %>
+    <%= yield :javascript %>
+  </body>
+</html>

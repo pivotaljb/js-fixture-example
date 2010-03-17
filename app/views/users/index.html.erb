@@ -1,0 +1,18 @@
+<% @users.each do |user| %>
+<div class='user'>
+  <p><%= link_to "#{user.first_name} #{user.last_name}", "javascript:void(0)" %></p>
+
+  <div class='details'>
+    <p>City: <%= user.city %></p>
+    <p>State: <%= user.state %></p>
+    <p>Phone: <%= user.phone_number %></p>
+    <p>Favorite Band: <%= user.favorite_band %></p>
+  </div>  
+</div>
+<% end %>
+
+<% content_for :javascript do %>
+  <script>
+    userPage.init();
+  </script>
+<% end %>
